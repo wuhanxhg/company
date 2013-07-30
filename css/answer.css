@@ -1,0 +1,152 @@
+#container #main {
+	background-image: url(../images/newsViewBgMid.jpg);
+	background-repeat: repeat-y;
+	float: left;
+}
+#container #main #left {
+	float: left;
+	width: 255px;
+	margin-left: 18px;
+	border: 1px solid #D7D7D5;
+	background-image: url(../images/bks.gif);
+	background-repeat: repeat;
+}
+#container #main #right {
+	float: left;
+	width: 550px;
+}
+#container #main #left #news {
+	margin-top: 10px;
+	height: 26px;
+	margin-left: 10px;
+	background-image: url(../images/newsViewTitle.jpg);
+	background-repeat: no-repeat;
+	font-family: "微软雅黑", "黑体", "宋体";
+	font-size: 14px;
+	font-weight: bolder;
+	text-indent: 10px;
+	color: #FFFFFF;
+	line-height: 1.8em;
+	width: 235px;
+}
+#container #main #left #newsList ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#container #main #left #newsList {
+	margin-top: 10px;
+	margin-left: 15px;
+	font-size: 13px;
+}
+#container #main #left #contact {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#container #main #left #contact #contactTitle {
+	height: 112px;
+	width: 219px;
+}
+#container #main #left #contact #contactContent ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	font-size: 13px;
+	line-height: 1.3em;
+}
+#container #main #left #contact #contactContent {
+	margin-left: 20px;
+}
+#container #main #right #locationNav {
+	background-image: url(../images/locationTitle.jpg);
+	background-repeat: no-repeat;
+	height: 33px;
+	margin-top: 0px;
+	font-family: "微软雅黑", "黑体", "宋体";
+	font-size: 14px;
+	line-height: 2.1em;
+	text-indent: 88px;
+	margin-left: 10px;
+}
+#container #main #mainTop {
+	height: 17px;
+	width: 850px;
+}
+#container #main #mainBottom {
+	height: 19px;
+	width: 850px;
+	float: left;
+}
+#container #main #right #pageShow {
+	height: 35px;
+	text-align: center;
+	background-image: url(../images/bks.gif);
+	margin-right: 20px;
+	margin-left: 20px;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: "微软雅黑", "黑体", "宋体";
+	line-height: 1.7em;
+	margin-top: 15px;
+}
+#container #main #right #questionShow .questionShow {
+	margin-right: 20px;
+	margin-left: 20px;
+	border: 1px solid #E4E4E2;
+	margin-top: 10px;
+}
+#container #main #right #questionShow .questionShow .questionTitle {
+	font-family: "微软雅黑", "黑体", "宋体";
+	font-size: 13px;
+	text-indent: 5px;
+	height: 30px;
+	line-height: 1.7em;
+	background-image: url(../images/bks.gif);
+	background-repeat: repeat;
+}
+#container #main #right #questionShow .questionShow .questionTitle .newsTime {
+	float: left;
+	margin-right: 30px;
+	font-size: 12px;
+	line-height: 2.3em;
+	color: #85868B;
+}
+#container #main #right #questionShow .questionShow .questionTitle .answer {
+	float: left;
+	margin-right: 70px;
+}
+#container #main #right #questionShow .questionShow .questionBottom {
+	padding: 5px;
+	line-height: 1.5em;
+	font-size: 13px;
+	font-family: "宋体";
+	background-image: url(../images/bks.gif);
+	background-repeat: repeat;
+}
+#container #main #right #questionShow .questionShow .questionContent {
+	font-size: 13px;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}#container #main #right #questionForm {
+	width: 400px;
+	margin-left: 70px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	float: left;
+}
+#container #main #right #questionForm th {
+	background-image: url(../images/bks.gif);
+	background-repeat: repeat;
+	text-align: right;
+	width: 80px;
+	padding-right: 5px;
+	font-family: "微软雅黑", "黑体", "宋体";
+	font-size: 13px;
+	font-weight: bolder;
+}
+#container #main #right #questionForm td {
+	padding-left: 5px;
+	background-color: #FFFFFF;
+}

@@ -1,0 +1,100 @@
+@charset "utf-8";
+body {
+	font-size: 14px;
+}
+body a{
+	text-decoration: none;
+	color: #000000;
+}
+body a:hover{
+	text-decoration:underline;
+	color:#0000FF;	
+}
+#container {
+	height: auto;
+	width: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border: 1px solid #003366;
+}
+.top-nav-td {
+	text-align: center;
+	width: 60px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	font-family: "黑体", "华文细黑", "微软雅黑", "宋体";
+}
+.top-nav-2-td {
+	text-align: center;
+	width: 80px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.title {
+	background-color: #9DC5FF;
+	font-family: "黑体", "华文细黑", "微软雅黑", "宋体";
+	line-height: 1.7em;
+	text-indent: 5px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 1px solid #003366;
+}
+.class-title {
+	background-color: #9DC5FF;
+	font-family: "黑体", "华文细黑", "微软雅黑", "宋体";
+	line-height: 1.7em;
+	text-indent: 5px;
+	font-weight: bold;
+	color: #FFFFFF;
+	cursor: pointer;
+	margin-top: 5px;
+	border: 1px solid #003366;
+}
+.class-title a {
+	color:#FFFFFF;
+}
+
+.content {
+	padding-top: 8px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #003366;
+	border-bottom-color: #003366;
+	border-left-color: #003366;
+	margin-bottom: 30px;
+	font-size: 12px;
+}
+.list-content {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #003366;
+	border-bottom-color: #003366;
+	border-left-color: #003366;
+	margin-bottom: 5px;
+	font-size: 12px;
+	display:none;
+}
+.list-td {
+	font-size: 12px;
+	line-height: 2em;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #003366;
+	text-indent: 10px;
+}

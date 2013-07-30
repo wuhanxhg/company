@@ -1,0 +1,116 @@
+#container #main {
+	background-image: url(../images/newsViewBgMid.jpg);
+	background-repeat: repeat-y;
+	float: left;
+}
+#container #main #left {
+	float: left;
+	width: 255px;
+	margin-left: 18px;
+	border: 1px solid #D7D7D5;
+	background-image: url(../images/bks.gif);
+	background-repeat: repeat;
+}
+#container #main #right {
+	float: left;
+	width: 550px;
+}
+#container #main #left #news {
+	margin-top: 10px;
+	height: 26px;
+	margin-left: 10px;
+	background-image: url(../images/newsViewTitle.jpg);
+	background-repeat: no-repeat;
+	font-family: "微软雅黑", "黑体", "宋体";
+	font-size: 14px;
+	font-weight: bolder;
+	text-indent: 10px;
+	color: #FFFFFF;
+	line-height: 1.8em;
+	width: 235px;
+}
+#container #main #left #newsList ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#container #main #left #newsList {
+	margin-top: 10px;
+	margin-left: 15px;
+	font-size: 13px;
+}
+#container #main #left #contact {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#container #main #left #contact #contactTitle {
+	height: 112px;
+	width: 219px;
+}
+#container #main #left #contact #contactContent ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	font-size: 13px;
+	line-height: 1.3em;
+}
+#container #main #left #contact #contactContent {
+	margin-left: 20px;
+}
+#container #main #right #locationNav {
+	background-image: url(../images/locationTitle.jpg);
+	background-repeat: no-repeat;
+	height: 33px;
+	margin-top: 0px;
+	font-family: "微软雅黑", "黑体", "宋体";
+	font-size: 14px;
+	line-height: 2.1em;
+	text-indent: 88px;
+	margin-left: 10px;
+}
+#container #main #right #newsContent {
+	margin-top: 20px;
+	margin-left: 15px;
+}
+#container #main #right #newsContent #contentTitle {
+	font-size: 16px;
+	font-weight: bolder;
+	text-align: center;
+	width: 450px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #DEDBD3;
+	line-height: 2.5em;
+}
+#container #main #right #newsContent #content {
+	margin-top: 20px;
+	float: left;
+	width: 525px;
+	font-size: 13px;
+	line-height: 1.7em;
+	padding-bottom: 20px;
+}
+#container #main #mainTop {
+	height: 17px;
+	width: 850px;
+}
+#container #main #mainBottom {
+	height: 19px;
+	width: 850px;
+	float: left;
+}
+#container #main #right #newsContent #content th {
+	background-image: url(../images/bks.gif);
+	background-repeat: repeat;
+}
+#container #main #right #newsContent #content td {
+	background-color: #FFFFFF;
+	text-indent: 5px;
+}
+#container #main #right #newsContent #content table {
+}
+#container #main #left #news a {
+	color: #FFFFFF;
+}

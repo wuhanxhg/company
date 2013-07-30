@@ -1,0 +1,96 @@
+#container #main {
+	background-image: url(../images/homeBg.jpg);
+	height: 313px;
+}
+#container #main #left {
+	float: left;
+	height: 313px;
+	width: 285px;
+}
+#container #main #middle {
+	float: left;
+	height: 313px;
+	width: 290px;
+	background-image: url(../images/proShow.jpg);
+	background-position: 0px 13px;
+	background-repeat: no-repeat;
+}
+#container #main #right {
+	float: left;
+	height: 313px;
+	width: 265px;
+}
+#container #main #left #intro {
+	height: 115px;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	font-size: 13px;
+	color: #625C66;
+	line-height: 1.5em;
+}
+#container #main #left #intro #introContent {
+	float: left;
+	width: 150px;
+}
+#container #main #left #intro #introTitle {
+	float: right;
+	height: 86px;
+	width: 107px;
+}
+#container #main #left #news #newsTitle {
+	height: 26px;
+	width: 241px;
+	margin-left: 10px;
+	background-image: url(../images/newsViewTitle.jpg);
+	background-repeat: no-repeat;
+	text-indent: 10px;
+	font-size: 14px;
+	font-family: "微软雅黑", "黑体", "宋体";
+	color: #FFFFFF;
+	font-weight: bolder;
+	line-height: 1.7em;
+}
+#container #main #left #news #newsContent {
+	width: 251px;
+	margin-left: 17px;
+	height: 130px;
+	margin-top: 10px;
+	font-size: 13px;
+	color: #595758;
+}
+#container #main #left #news #newsContent ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	line-height: 1.3em;
+}
+#container #main #right #contactTitle {
+	height: 112px;
+	width: 219px;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+#container #main #right #contactContent {
+	height: 150px;
+	width: 220px;
+	margin-right: 10px;
+	margin-left: 25px;
+	margin-top: 10px;
+	font-size: 13px;
+	color: #484647;
+}
+#container #main #right #contactContent ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	line-height: 1.5em;
+}
+#container #main #middle #proPicShow {
+	height: 250px;
+	width: 250px;
+	margin-top: 30px;
+	margin-left: 18px;
+	border: 1px solid #EEEEEE;
+}

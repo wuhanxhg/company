@@ -1,0 +1,129 @@
+#container #main {
+	background-image: url(../images/proListBg.jpg);
+	height: 550px;
+	background-repeat: no-repeat;
+}
+#container #main #left {
+	float: left;
+	height: 500px;
+	width: 265px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: 1px solid #D7D7D5;
+	background-image: url(../images/bks.gif);
+	position: 固定;
+}
+#container #main #left #news #newsTitle {
+	height: 26px;
+	background-image: url(../images/newsViewTitle.jpg);
+	background-repeat: no-repeat;
+	font-size: 15px;
+	font-family: "微软雅黑", "黑体", "宋体";
+	color: #FEFEFE;
+	padding-left: 15px;
+	line-height: 1.7em;
+	font-weight: bolder;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 230px;
+}
+#container #main #left #news #newsContent {
+	margin-left: 18px;
+	margin-top: 10px;
+	font-size: 13px;
+}
+#container #main #left #news #newsContent ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	line-height: 1.3em;
+}
+#container #main #right {
+	float: left;
+	height: 540px;
+	width: 538px;
+}
+#container #main #left #news #contactContent ul {
+	padding: 0px;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 18px;
+	font-size: 13px;
+	line-height: 1.3em;
+}
+#container #main #right #locationNav {
+	font-family: "微软雅黑", "黑体", "宋体";
+	font-size: 13px;
+	line-height: 2.2em;
+	background-image: url(../images/locationTitle.jpg);
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	padding-left: 100px;
+	height: 33px;
+	background-position: 10px;
+	width: 350px;
+}
+#container #main #right #proShow {
+	height: 430px;
+	margin-left: 10px;
+}
+#container #main #right #proShow .pro {
+	height: 184px;
+	width: 230px;
+	border: 1px solid #C8C6BA;
+	float: left;
+	margin-right: 3px;
+	margin-left: 5px;
+	margin-top: 10px;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-left: 8px;
+	background-image: url(../images/bks.gif);
+	background-repeat: repeat;
+}
+#container #main #right #proShow .proC {
+	height: 184px;
+	width: 230px;
+	border: 1px solid #FFFFFF;
+	float: left;
+	margin-right: 3px;
+	margin-left: 5px;
+	margin-top: 10px;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-left: 8px;
+	background-image: url(../images/proContainerC.jpg);
+	background-repeat: no-repeat;
+}
+.proImg {
+	height: 150px;
+	width: 230px;
+	background-color: #FFFFFF;
+}
+.proName {
+	text-align: center;
+	height: 33px;
+	font-family: "微软雅黑", "黑体", "宋体";
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 2.4em;
+}
+#container #main #right #pageShow {
+	height: 35px;
+	text-align: center;
+	background-image: url(../images/bks.gif);
+	margin-right: 20px;
+	margin-left: 20px;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: "微软雅黑", "黑体", "宋体";
+	line-height: 1.7em;
+}
+#container #main #right #proShow img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
